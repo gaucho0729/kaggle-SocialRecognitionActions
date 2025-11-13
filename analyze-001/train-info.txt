@@ -1,0 +1,155 @@
+[Column's information]:
+lab_id                 object
+video_id                int64
+mouse1_strain          object
+mouse1_color           object
+mouse1_sex             object
+mouse1_id             float64
+mouse1_age             object
+mouse1_condition       object
+mouse2_strain          object
+mouse2_color           object
+mouse2_sex             object
+mouse2_id             float64
+mouse2_age             object
+mouse2_condition       object
+mouse3_strain          object
+mouse3_color           object
+mouse3_sex             object
+mouse3_id             float64
+mouse3_age             object
+mouse3_condition       object
+mouse4_strain          object
+mouse4_color           object
+mouse4_sex             object
+mouse4_id             float64
+mouse4_age             object
+mouse4_condition       object
+frames_per_second     float64
+video_duration_sec    float64
+pix_per_cm_approx     float64
+video_width_pix         int64
+video_height_pix        int64
+arena_width_cm        float64
+arena_height_cm       float64
+arena_shape            object
+arena_type             object
+body_parts_tracked     object
+behaviors_labeled      object
+tracking_method        object
+dtype: object
+
+
+
+
+[Numbers of None-data]:
+lab_id                   0
+video_id                 0
+mouse1_strain            0
+mouse1_color             0
+mouse1_sex              10
+mouse1_id             7973
+mouse1_age             649
+mouse1_condition       560
+mouse2_strain            0
+mouse2_color             0
+mouse2_sex              47
+mouse2_id             8681
+mouse2_age             649
+mouse2_condition       798
+mouse3_strain          846
+mouse3_color           846
+mouse3_sex             846
+mouse3_id             8772
+mouse3_age             846
+mouse3_condition       856
+mouse4_strain         8779
+mouse4_color          8779
+mouse4_sex            8779
+mouse4_id             8779
+mouse4_age            8778
+mouse4_condition      8786
+frames_per_second        0
+video_duration_sec       0
+pix_per_cm_approx        0
+video_width_pix          0
+video_height_pix         0
+arena_width_cm           0
+arena_height_cm          0
+arena_shape              0
+arena_type              10
+body_parts_tracked       0
+behaviors_labeled     7941
+tracking_method          0
+dtype: int64
+
+
+
+
+[Stas information]:
+           video_id   mouse1_id   mouse2_id  ...  video_height_pix  arena_width_cm  arena_height_cm
+count  8.789000e+03  816.000000  108.000000  ...       8789.000000     8789.000000      8789.000000
+mean   1.072697e+09   24.571078   19.518519  ...        790.369667       50.457856        49.299670
+std    6.209820e+08   22.444201   11.660687  ...        133.869821        7.580842        10.705873
+min    9.603000e+03    1.000000    1.000000  ...        194.000000       12.700000        12.000000
+25%    5.380940e+08    6.000000   12.000000  ...        800.000000       52.000000        52.000000
+50%    1.072003e+09   15.000000   17.000000  ...        800.000000       52.000000        52.000000
+75%    1.615401e+09   38.000000   24.250000  ...        800.000000       52.000000        52.000000
+max    2.147479e+09   80.000000   53.000000  ...       2056.000000      120.000000       120.000000
+
+[8 rows x 12 columns]
+
+
+
+
+[Outlier information]:
+  out of quatile:
+video_id                0
+mouse1_id               0
+mouse2_id               7
+mouse3_id               0
+mouse4_id               0
+frames_per_second     241
+video_duration_sec    862
+pix_per_cm_approx     862
+video_width_pix       863
+video_height_pix      863
+arena_width_cm        863
+arena_height_cm       863
+Name: outlier_count, dtype: int64
+
+
+
+
+  out of 2sigma:
+video_id                0
+mouse1_id              50
+mouse2_id               7
+mouse3_id               0
+mouse4_id               0
+frames_per_second     165
+video_duration_sec     42
+pix_per_cm_approx     116
+video_width_pix       212
+video_height_pix      292
+arena_width_cm        805
+arena_height_cm       692
+Name: outlier_count, dtype: int64
+
+
+
+
+  out of 3sigma:
+video_id                0
+mouse1_id               0
+mouse2_id               0
+mouse3_id               0
+mouse4_id               0
+frames_per_second     129
+video_duration_sec     20
+pix_per_cm_approx      96
+video_width_pix       158
+video_height_pix      139
+arena_width_cm        151
+arena_height_cm       545
+Name: outlier_count, dtype: int64
